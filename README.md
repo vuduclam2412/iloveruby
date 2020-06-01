@@ -11,7 +11,7 @@ I. How to use Rails helper
 
 2. How to use helper methods in Controllers
 - Rails version 4: Include the helper module.
-- Rails version 5: Use with *helpers* object.
+- Rails version 5: Use with **helpers** object.
 
 ```
 class UsersController < ApplicationController
@@ -20,7 +20,7 @@ end
 ```
 
 3. How to use helper in Rails console
-- Use with *helper* following the name of method.
+- Use with **helper** following the name of method.
 
 4. Best practices
 - Don't use instance varibles in helper, they may be available in your current view, but they may not be in another view. Therefore, it will result in an error because of missing variables.
